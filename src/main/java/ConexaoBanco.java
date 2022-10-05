@@ -14,7 +14,7 @@ public class ConexaoBanco {
         this.urlConnection = urlConnection;
     }
 
-    public String getConexao(){
+    public String getUrlConnection(){
         return "URL Connection: "+this.urlConnection;
     }
 }

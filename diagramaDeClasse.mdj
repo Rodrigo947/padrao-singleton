@@ -153,7 +153,7 @@
 											"top": 317,
 											"width": 135,
 											"height": 13,
-											"text": "+host",
+											"text": "+urlConnection",
 											"horizontalAlignment": 0
 										},
 										{
@@ -165,6 +165,7 @@
 											"model": {
 												"$ref": "AAAAAAGDjBKdDn3VaO0="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 325,
 											"top": 332,
@@ -182,6 +183,7 @@
 											"model": {
 												"$ref": "AAAAAAGDjBKxh3354pM="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 325,
 											"top": 347,
@@ -199,6 +201,7 @@
 											"model": {
 												"$ref": "AAAAAAGDjBLBrn5B6bY="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 325,
 											"top": 362,
@@ -212,7 +215,7 @@
 									"left": 320,
 									"top": 297,
 									"width": 145,
-									"height": 83
+									"height": 38
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -235,7 +238,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 325,
-											"top": 385,
+											"top": 340,
 											"width": 135,
 											"height": 13,
 											"underline": true,
@@ -253,10 +256,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 325,
-											"top": 400,
+											"top": 355,
 											"width": 135,
 											"height": 13,
-											"text": "+setHost()",
+											"text": "+setUrlConnection()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -268,6 +271,7 @@
 											"model": {
 												"$ref": "AAAAAAGDjBNkh3/PpwQ="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 325,
 											"top": 415,
@@ -285,6 +289,7 @@
 											"model": {
 												"$ref": "AAAAAAGDjBNv13/zrcc="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 325,
 											"top": 430,
@@ -302,6 +307,7 @@
 											"model": {
 												"$ref": "AAAAAAGDjBN6Z4AdY8I="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 325,
 											"top": 445,
@@ -321,18 +327,18 @@
 											},
 											"font": "Arial;13;0",
 											"left": 325,
-											"top": 460,
+											"top": 370,
 											"width": 135,
 											"height": 13,
-											"text": "+getConexao()",
+											"text": "+getUrlConnection()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 320,
-									"top": 380,
+									"top": 335,
 									"width": 145,
-									"height": 98
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -372,7 +378,7 @@
 							"left": 320,
 							"top": 272,
 							"width": 145,
-							"height": 206,
+							"height": 121,
 							"nameCompartment": {
 								"$ref": "AAAAAAGDjAO45XZ/Rr4="
 							},
@@ -763,7 +769,8 @@
 								"$ref": "AAAAAAGDjAO45HZ8NOg="
 							},
 							"name": "instance",
-							"isStatic": true
+							"isStatic": true,
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -771,7 +778,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGDjAO45HZ8NOg="
 							},
-							"name": "host"
+							"name": "urlConnection"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -779,7 +786,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGDjAO45HZ8NOg="
 							},
-							"name": "port"
+							"name": "port",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -787,7 +795,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGDjAO45HZ8NOg="
 							},
-							"name": "user"
+							"name": "user",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -795,7 +804,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGDjAO45HZ8NOg="
 							},
-							"name": "password"
+							"name": "password",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -814,7 +824,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGDjAO45HZ8NOg="
 							},
-							"name": "setHost"
+							"name": "setUrlConnection"
 						},
 						{
 							"_type": "UMLOperation",
@@ -846,7 +856,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGDjAO45HZ8NOg="
 							},
-							"name": "getConexao"
+							"name": "getUrlConnection"
 						}
 					]
 				}
